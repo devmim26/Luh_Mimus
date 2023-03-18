@@ -1,0 +1,19 @@
+{
+    "name": "mel/software_luh_mimus",
+    "description": "Software de gerenciamento Luh mimu's",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "core\\": "core/",
+            "config\\": "config/",
+            "public\\": "public/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Melissa Neves",
+            "email": "116177595+nevesmelissa@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}

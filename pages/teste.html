@@ -1,0 +1,44 @@
+<form action="Addbolo.php" method="post" enctype="multipart/form-data">
+    <div class="modal-body">
+        <div class="container-fluid">
+            <!-- nome -->
+            <div class="mb-3">
+                <label for="nome" class="form-label">Nome:</label>
+                <input type="text" class="form-control" name="nome" id="nome" aria-describedby="emailHelpId" placeholder="Ex: Bolo de morango">
+            </div>
+            <!-- preço -->
+            <div class="mb-3">
+                <label for="valor" class="form-label">Preço: (por quilo)</label>
+                <input type="text" class="form-control" name="valor" id="valor" aria-describedby="emailHelpId" placeholder="R$90,00">
+            </div>
+
+            <div class="mb-3">
+                <label for="nome" class="form-label">Recheio:</label>
+                <input type="text" class="form-control" name="recheio" id="nome" aria-describedby="emailHelpId" placeholder="Ex: Brigadeiro">
+            </div>
+
+            <div class="mb-3">
+                <label for="nome" class="form-label">Massa:</label>
+                <input type="text" class="form-control" name="massa" id="nome" aria-describedby="emailHelpId" placeholder="Ex: Brigadeiro">
+            </div>
+
+            <!-- descrição -->
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Descrição</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" name="desc" rows="3"></textarea>
+            </div>
+
+            <!-- imagens -->
+            <div class="mb-3">
+                <label for="avatar" class="form-label">Adicione a imagem</label>
+                <input type="file" class="form-control" name="img_bolo" id="avatar" aria-describedby="emailHelpId" placeholder="Ex: Brigadeiro de chocolate">
+            </div>
+            <!-- botão -->
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-dark">Salvar</button>
+                <button type="reset" class="btn btn-dark" data-bs-dismiss="modal">Cancelar</button>
+
+            </div>
+        </div>
+    </div>
+</form>
