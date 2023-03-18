@@ -1,0 +1,75 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.photo-gallery .menu {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 3%;
+    padding: 2px;
+    display: block;
+}
+
+.photo-gallery nav {
+    display: flex;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.menu nav :hover{
+    background-color: white;
+
+}
+
+.menu a {
+    display: inline-block;
+    width: 35%;
+    height: auto;
+    background-color: #FCCAD5;
+    margin-right: 4px;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+}
+
+.menu img{
+    margin: 2% -6% 2% 0%;
+}
+
+.menu h1 {
+    color: #000000;
+    font-size: 14px;
+    display: inline-block;
+    margin: 0% 3% 5% 0%;
+}
+
+section {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    font-size: 28px;
+    color: #3F2014;
+    font-weight: bold;
+    text-align: center;
+}
+
+.photo-gallery .photos img{
+    border-radius: 15px;
+    height: 100%;
+}
+
+.photo-gallery {
+    color: #000000;
+    background-color: #fff;
+}
+
+.photo-gallery .photos {
+    padding-bottom: 20px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.photo-gallery .item {
+    padding-bottom: 30px;
+}

@@ -1,0 +1,178 @@
+.localization svg{
+    background-color: #F07882;
+    border-radius: 8px;
+    color: white;
+    padding: 4px;
+}
+
+.localization .editar{
+    background-color: #F07882;
+    border: none;
+
+}
+
+.localization .editar:active{
+    background-color: black;
+}
+
+.table-responsive{
+    background-color: white;
+}
+
+
+
+.finalEntrega{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+header.header-bot{
+    text-align: center;
+    width: 100%;
+    height: 47.5px;
+    background-color: #f7a4ba;
+}
+button.headerButton{
+    margin: 5px;
+    background-color: #f7a4ba;
+    border: none;
+    font-size: 25px;
+    color: white;
+}
+button.headerButton:hover{
+    margin: 5px;
+    font-size: 25px;
+}
+.finalLado{
+    display: inline-block;
+}
+p{
+    color: #2B2B2B;
+    font-size: 20px;
+}
+input[type="date"]{
+    border: none;
+    resize: none;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    font-size: 20px;
+}
+div#frete{
+    text-align: left;
+    height: 90px;
+    width: 170px;
+}
+
+.finalizar{
+    font-size: 20px;
+    background-color: #F07882;
+    border: none;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.finalizar:hover{
+    background-color: black;
+}
+
+.finalizar:active{
+    background-color: black;
+}
+
+button{
+    border: none;
+    background-color: white;
+    color: #F07882;
+}
+.link-header{
+    color: white;
+    margin: 0;
+    font-size: 25px;
+}
+.link-header:hover{
+    color: white;
+    margin: 0;
+    font-size: 25px;
+}
+
+div#fundoPreto{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+div#formaPagamento{
+    border-radius: 20px;
+    width: 25%;
+    background-color: white;
+    border: solid black 2px;
+    position: fixed;
+    top: 35%;
+    left: 35%;
+    text-align: center;
+    display: none;
+
+}
+div#formaPagamento h1{
+    font-size: 30px;
+    color: black;
+}
+.formas{
+    width: 80%;
+    height: 38px;
+    border: solid #949494 1px;
+    border-radius: 7px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.formas p {
+    color: black;
+    font-weight: 700;
+    font-size: 17.5px;
+    margin-top: 7px;
+    display: inline-block;
+}
+.addCartao{
+    font-size: 25px;
+    padding: 5px;
+    color: white;
+    background-color: #E6B07A;
+    border-radius: 8px;
+}
+.addCartao:hover{
+    font-size: 25px;
+    padding: 5px;
+    color: white;
+    background-color: #E6B07A;
+    border-radius: 8px;
+}
+
+#troco{
+    border-radius: 20px;
+    width: 25%;
+    background-color: white;
+    border: solid black 2px;
+    position: fixed;
+    top: 35%;
+    left: 35%;
+    text-align: center;
+    display: none;
+}
+
+#troco h1{
+    font-size: 25px;
+    color: black;
+}

@@ -1,0 +1,29 @@
+.quem-somos .row{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+.col-md-7 h2{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.quem-somos .col-md-5 img{
+    width: 100%;
+    margin-top: 5%;
+}
+
+.quem-somos .col-md-7{
+    border: 1px solid #FCD8CA;
+}
+
+.quem-somos .trajetoria h1{
+    justify-items: center;
+    text-align: center;
+}
+
+.trajetoria h1{
+    color: black;
+    font-weight: 500;
+}

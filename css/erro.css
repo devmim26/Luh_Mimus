@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #FCCAD5;
+}
+
+.botaovolta svg{
+    color: black;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.erro{
+    text-align: center;
+}
+
+.erro img{
+    width: 60%;
+}
+
+.erro h1{
+    font-size: 30px;
+}
+
+.erro a{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.603);
+}
+
+.erro h2{
+    font-size: 27px;
+}
+
+.erro .link{
+    font-size: 20px;
+    color: black;
+    background-color: #F07882;
+    border-radius: 15px;
+}
+
+.cpfimg img{
+    width: 40%;
+}

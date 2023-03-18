@@ -1,0 +1,49 @@
+body {
+    margin: 40px 10px;
+    padding: 0;
+    font-size: 14px;
+    background-color: white;
+    box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.226);
+}
+
+#calendar{
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+h1{
+    color: black;
+    text-align: center;
+}
+
+h2{
+    color: black;
+}
+
+span{
+    color: black;
+}
+span.fc-title{
+    color: white;
+}
+
+.fc-button-primary:hover{
+    color: #fff;
+    background-color: #F07882;
+    border-color: #ff818c;
+}
+.fc-icon-chevron-left{
+    color: #fff;
+}
+
+.fc-icon-chevron-right{
+    color: #fff;
+}
+
+form{
+    width: 90%;
+}
+.modal-backdrop{
+    background-color: transparent;
+}

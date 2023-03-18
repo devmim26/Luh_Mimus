@@ -1,0 +1,1188 @@
+@media (min-width: 1920px) and (max-width: 2000px) {
+  .logo {
+    text-align: center;
+    margin-left: 45%;
+  }
+
+  .owl-stage-outer {
+    margin-left: 11%;
+    align-items: center;
+  }
+
+  .maisvendidos {
+    display: flex;
+  }
+
+  .erro img {
+    width: 80%;
+  }
+
+  .erro h1 {
+    font-size: 40px;
+  }
+
+  .erro a {
+    font-size: 14px;
+  }
+}
+
+.banners .slide1 .carousel-item {
+  background-image: url(../images/1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.banners .slide2 .carousel-item {
+  background-image: url(../images/2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.banners .slide3 .carousel-item {
+  background-image: url(../images/slide3.1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+@media (min-width: 1400px) and (max-width: 1919px) {
+  .owl-stage-outer {
+    margin-left: 10%;
+    align-items: center;
+  }
+
+  .maisvendidos {
+    display: flex;
+  }
+}
+
+.modal-body img {
+  margin-top: 80px;
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .owl-stage-outer {
+    margin-left: 4%;
+    align-items: center;
+  }
+
+  .maisvendidos {
+    display: flex;
+  }
+
+  .kitfesta .col-md-5 img {
+    margin-top: 15%;
+  }
+
+}
+
+
+@media (min-width: 1050px) and (max-width: 1199px) {
+  .logo {
+    text-align: center;
+    margin-left: 43%;
+  }
+
+  .photo-gallery .menu {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .maisvendidos {
+    display: flex;
+  }
+
+  .owl-stage-outer {
+    margin-left: 14%;
+  }
+
+  .quem-somos .col-md-5 img {
+    width: 100%;
+    margin-top: 50%;
+    margin-bottom: 50%;
+  }
+
+  .content .image-box {
+    max-width: 60%;
+  }
+
+  .content {
+    padding: 10px 0;
+  }
+
+  .menu img {
+    margin: 2% -8% 2% 0%;
+  }
+
+  .menu h1 {
+    color: #000000;
+    font-size: 14px;
+    display: inline-block;
+    margin: 0% 3% 5% 0%;
+  }
+
+  .kitfesta .col-md-5 img {
+    margin-top: 25%;
+  }
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1049px) {
+  .maisvendidos {
+    display: flex;
+  }
+
+  .maisvendidos .card {
+    width: 22rem;
+  }
+
+  .escolha img {
+    margin-top: 25%;
+    width: 100%;
+  }
+
+  .escolha a {
+    margin-left: 30%;
+  }
+
+  .owl-stage-outer {
+    margin-left: 13%;
+  }
+
+  .menu h1 {
+    display: none;
+  }
+
+  .kitfesta .col-md-5 img {
+    margin-top: 25%;
+  }
+
+}
+
+@media (min-width: 791px) and (max-width: 991px) {
+  .owl-stage-outer {
+    margin-left: 2%;
+  }
+
+  .escolha img {
+    margin-left: 10%;
+  }
+
+  .escolha a {
+    margin-left: 30%;
+  }
+
+  .maisvendidos {
+    margin-left: 1%;
+    display: flex;
+  }
+
+  .menu h1 {
+    display: none;
+  }
+
+  .kitfesta .col-md-5 img {
+    width: 100%;
+    margin-top: 40%;
+  }
+
+  .form-control {
+    display: none;
+  }
+
+  .d-flex button {
+    display: none;
+  }
+
+  .erro img {
+    width: 50%;
+  }
+
+  .erro h1 {
+    font-size: 25px;
+  }
+
+  .erro a {
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.603);
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 790px) {
+  .logo {
+    margin-left: 37%;
+  }
+
+  .logo img {
+    width: 170px;
+  }
+
+  .icones {
+    margin-left: 40%;
+  }
+
+  .escolha img {
+    margin-left: 10%;
+  }
+
+  .escolha a {
+    margin-left: 30%;
+  }
+
+  .maisvendidos {
+    margin-left: 20%;
+  }
+
+  .maisvendidos img {
+    width: 100%;
+  }
+
+  .card-wrapper {
+    display: flex;
+  }
+
+  .sabores button {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #000000;
+  }
+
+  .menu h1 {
+    display: none;
+  }
+
+  .photo-gallery .menu {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .owl-stage-outer {
+    margin-left: 25%;
+  }
+
+  .form-control {
+    display: none;
+  }
+
+  .d-flex button {
+    display: none;
+  }
+
+  .perfil form {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .kitfesta {
+    text-align: center;
+  }
+
+  .kitfesta .col-md-5 img {
+    width: 90%;
+    margin-top: 45%;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+
+  .form-row {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .quem-somos .col-md-5 img {
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+
+  .content .image-box {
+    display: none;
+  }
+
+  .col-md-7 img {
+    margin-bottom: -1%
+  }
+
+  .footer h3 {
+    padding-top: 20px;
+  }
+
+  .erro img {
+    width: 50%;
+  }
+
+  .erro h1 {
+    font-size: 25px;
+  }
+
+  .erro a {
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.603);
+  }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .logo {
+    margin-left: 37%;
+  }
+
+  .logo img {
+    width: 170px;
+  }
+
+  .icones {
+    margin-left: 40%;
+  }
+
+  .escolha img {
+    margin-left: 10%;
+  }
+
+  .escolha a {
+    margin-left: 30%;
+  }
+
+  .maisvendidos {
+    margin-left: 20%;
+  }
+
+  .maisvendidos img {
+    width: 100%;
+  }
+
+  .card-wrapper {
+    display: flex;
+  }
+
+  .sabores button {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #000000;
+  }
+
+  .menu h1 {
+    display: none;
+  }
+
+  .photo-gallery .menu {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .owl-stage-outer {
+    margin-left: 20%;
+  }
+
+  .form-control {
+    display: none;
+  }
+
+  .d-flex button {
+    display: none;
+  }
+
+  .perfil form {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .kitfesta {
+    text-align: center;
+  }
+
+  .kitfesta .col-md-5 img {
+    width: 90%;
+    margin-top: 45%;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+
+  .form-row {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .quem-somos .col-md-5 img {
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+
+  .content .image-box {
+    display: none;
+  }
+
+  .col-md-7 img {
+    margin-bottom: -1%
+  }
+
+  .footer h3 {
+    padding-top: 20px;
+  }
+
+  .erro img {
+    width: 50%;
+  }
+
+  .erro h1 {
+    font-size: 25px;
+  }
+
+  .erro a {
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.603);
+  }
+
+}
+
+@media (min-width: 500px) and (max-width: 575px) {
+  .logo {
+    margin-left: 35%;
+  }
+  .owl-stage-outer {
+    margin-left: 12%;
+  }
+  .icones {
+    margin-left: 35%;
+  }
+
+  .escolha img {
+    margin-left: 10%;
+  }
+
+  .escolha a {
+    margin-left: 30%;
+  }
+
+  .maisvendidos {
+    margin-left: 19%;
+  }
+
+  .owl-stage-outer {
+    margin-left: 12%;
+  }
+
+  .btn_fav .bi-heart {
+    margin-left: 60%;
+    margin-bottom: 65%;
+    margin-top: -30px;
+  }
+
+  .menu h1 {
+    display: none;
+  }
+
+  .kitfesta {
+    text-align: center;
+  }
+
+  .kitfesta .col-md-5 img {
+    width: 90%;
+    margin-top: 45%;
+    margin-top: 5%;
+  }
+
+  .erro h1 {
+    margin-top: 3%;
+    font-size: 22px;
+  }
+
+  .erro a {
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.603);
+  }
+
+}
+
+@media (min-width: 450px) and (max-width: 499px) {
+  .logo {
+    margin-left: 36%;
+  }
+  .owl-stage-outer {
+    margin-left: 12%;
+  }
+  .icones {
+    margin-left: 36%;
+  }
+
+  .escolha img {
+    margin-left: 10%;
+  }
+
+  .escolha a {
+    margin-left: 30%;
+  }
+
+  .maisvendidos {
+    margin-left: 19%;
+  }
+
+  .owl-stage-outer {
+    margin-left: 12%;
+  }
+
+  .btn_fav .bi-heart {
+    margin-left: 60%;
+    margin-bottom: 65%;
+    margin-top: -30px;
+  }
+
+  .menu h1 {
+    display: none;
+  }
+
+  .kitfesta {
+    text-align: center;
+  }
+
+  .kitfesta .col-md-5 img {
+    width: 90%;
+    margin-top: 45%;
+    margin-top: 5%;
+  }
+
+  .erro h1 {
+    margin-top: 3%;
+    font-size: 22px;
+  }
+
+  .erro a {
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.603);
+  }
+
+}
+
+
+
+@media (min-width: 400px) and (max-width: 449px) {
+  .logo {
+    margin-left: 34%;
+  }
+
+  .owl-item{
+    margin-left: 10% !important;
+  }
+
+  .icones {
+    margin-left: 36%;
+  }
+
+  .d-flex button {
+    display: none;
+  }
+
+  .escolha img {
+    margin-left: 10%;
+  }
+
+  .escolha a {
+    margin-left: 30%;
+  }
+
+  .maisvendidos {
+    margin-left: 5%;
+  }
+
+  .header-menu button {
+    position: relative;
+    left: 78%;
+  }
+
+  .sabores button {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -15%;
+    background-color: #000000;
+  }
+
+  /* aqui vc coloca as imagens reduzidas*/
+  .banners .slide1 .carousel-item {
+    background-image: url(../images/slide1-1.png);
+    background-repeat: no-repeat;
+    background-color: #000000;
+
+  }
+
+  .banners .slide2 .carousel-item {
+    background-image: url(../images/slide2-2.png);
+    background-repeat: no-repeat;
+    background-color: #9499C5;
+  }
+
+  .banners .slide3 .carousel-item {
+    background-image: url(../images/slide3-3.png);
+
+  }
+
+  /*aqui acaba*/
+
+  .banners .carousel-item {
+    background-image: url(../images/bolobrigadeiro.jpg);
+  }
+
+  .menu nav {
+    margin-top: 5%;
+    width: 100%;
+  }
+
+  .menu a {
+    height: 20%;
+    margin: 5px 5px 2px 2px;
+    border-radius: 24px;
+  }
+
+  .menu img {
+    margin: 2% 1% 6%;
+  }
+
+  .menu h1 {
+    display: none;
+  }
+
+  .snip1143 li:hover:before {
+    width: 10%;
+  }
+
+  .login form {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .form-group input {
+    font-size: 10px;
+  }
+
+  .owl-stage-outer {
+    margin-left: 7%;
+    align-items: center;
+  }
+
+  .form-row {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .single_course {
+    width: 70%;
+  }
+
+  .single_course .course_content {
+    height: 350px;
+  }
+
+  .course_content .btns-cardapio a {
+    width: 70%;
+    display: block;
+    margin-right: 60%;
+  }
+
+  .btn_fav .bi-heart {
+    margin-left: 80%;
+    margin-bottom: 65%;
+    margin-top: -30px;
+  }
+
+  .card-wrapper .card:not(:first-child) {
+    display: none;
+  }
+
+  .quem-somos .col-md-5 img {
+    margin-bottom: 10%;
+  }
+
+  .content .image-box {
+    display: none;
+  }
+
+  .content form {
+    width: 100%;
+    margin-left: 5%;
+  }
+
+  .col-md-7 img {
+    margin-bottom: -40%
+  }
+
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+
+  .container_form {
+    width: 90%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .recuperar form {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .kitfesta {
+    text-align: center;
+  }
+
+  .kitfesta .col-md-5 img {
+    width: 90%;
+    margin-top: 45%;
+    margin-top: 5%;
+  }
+
+  .cadastro .modal-footer button a {
+    font-size: 20px;
+  }
+
+  .footer h3 {
+    padding-top: 20px;
+    font-size: 16px;
+  }
+
+  .footer li {
+    font-size: 14px;
+  }
+
+  .copyright p {
+    font-size: 14px;
+  }
+
+  .erro h1 {
+    font-size: 22px;
+    margin-top: 3%;
+  }
+
+  .erro a {
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.603);
+  }
+
+}
+
+@media (min-width: 380px) and (max-width: 399px) {
+  .logo {
+    margin-left: 34%;
+  }
+
+  .owl-item{
+    margin-left: 12% !important;
+  }
+
+  
+  .icones {
+    margin-left: 36%;
+  }
+
+  .d-flex button {
+    display: none;
+  }
+
+  .escolha img {
+    margin-left: 10%;
+  }
+
+  .escolha a {
+    margin-left: 30%;
+  }
+
+  .maisvendidos {
+    margin-left: 5%;
+  }
+
+  .header-menu button {
+    position: relative;
+    left: 78%;
+  }
+
+  .sabores button {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -15%;
+    background-color: #000000;
+  }
+
+  /* aqui vc coloca as imagens reduzidas*/
+  .banners .slide1 .carousel-item {
+    background-image: url(../images/slide1-1.png);
+    background-repeat: no-repeat;
+    background-color: #000000;
+
+  }
+
+  .banners .slide2 .carousel-item {
+    background-image: url(../images/slide2-2.png);
+    background-repeat: no-repeat;
+    background-color: #9499C5;
+  }
+
+  .banners .slide3 .carousel-item {
+    background-image: url(../images/slide3-3.png);
+
+  }
+
+
+  /*aqui acaba*/
+
+  .banners .carousel-item {
+    background-image: url(../images/bolobrigadeiro.jpg);
+  }
+
+  .menu nav {
+    margin-top: 5%;
+    width: 100%;
+  }
+
+  .menu a {
+    height: 20%;
+    margin: 5px 5px 2px 2px;
+    border-radius: 24px;
+  }
+
+  .menu img {
+    margin: 2% 1% 6%;
+  }
+
+  .menu h1 {
+    display: none;
+  }
+
+  .snip1143 li:hover:before {
+    width: 10%;
+  }
+
+  .login form {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .form-group input {
+    font-size: 10px;
+  }
+
+  .owl-stage-outer {
+    margin-left: 0%;
+  }
+
+  .form-row {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .single_course {
+    width: 70%;
+  }
+
+  .single_course .course_content {
+    height: 350px;
+  }
+
+  .course_content .btns-cardapio a {
+    width: 70%;
+    display: block;
+    margin-right: 60%;
+  }
+
+  .btn_fav .bi-heart {
+    margin-left: 80%;
+    margin-bottom: 65%;
+    margin-top: -30px;
+  }
+
+  .card-wrapper .card:not(:first-child) {
+    display: none;
+  }
+
+  .quem-somos .col-md-5 img {
+    margin-bottom: 10%;
+  }
+
+  .content .image-box {
+    display: none;
+  }
+
+  .content form {
+    width: 100%;
+    margin-left: 5%;
+  }
+
+  .col-md-7 img {
+    margin-bottom: -40%
+  }
+
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+
+  .container_form {
+    width: 90%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .recuperar form {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .kitfesta {
+    text-align: center;
+  }
+
+  .kitfesta .col-md-5 img {
+    width: 90%;
+    margin-top: 45%;
+    margin-top: 5%;
+  }
+
+  .cadastro .modal-footer button a {
+    font-size: 20px;
+  }
+
+  .footer h3 {
+    padding-top: 20px;
+    font-size: 16px;
+  }
+
+  .footer li {
+    font-size: 14px;
+  }
+
+  .copyright p {
+    font-size: 14px;
+  }
+
+  .erro h1 {
+    font-size: 22px;
+    margin-top: 3%;
+  }
+
+  .erro a {
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.603);
+  }
+
+}
+
+
+
+@media (min-width: 340px) and (max-width: 379px) {
+  .logo {
+    margin-left: 30%;
+  }
+
+  .icones {
+    margin-left: 32%;
+  }
+  .owl-item{
+    margin-left: 15% !important;
+  }
+
+  .d-flex button {
+    display: none;
+  }
+
+  .escolha img {
+    margin-left: 10%;
+  }
+
+  .escolha a {
+    margin-left: 30%;
+  }
+
+  .maisvendidos {
+    margin-left: -2%;
+  }
+
+  .header-menu button {
+    position: relative;
+    left: 78%;
+  }
+
+  .sabores button {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -15%;
+    background-color: #000000;
+  }
+
+  /* aqui vc coloca as imagens reduzidas*/
+  .banners .slide1 .carousel-item {
+    background-image: url(../images/slide1-1.png);
+    background-repeat: no-repeat;
+    background-color: #000000;
+
+  }
+
+  .banners .slide2 .carousel-item {
+    background-image: url(../images/slide2-2.png);
+    background-repeat: no-repeat;
+    background-color: #9499C5;
+  }
+
+  .banners .slide3 .carousel-item {
+    background-image: url(../images/slide3-3.png);
+
+  }
+
+
+  /*aqui acaba*/
+
+  .banners .carousel-item {
+    background-image: url(../images/bolobrigadeiro.jpg);
+  }
+
+  .menu nav {
+    margin-top: 5%;
+    width: 100%;
+  }
+
+  .menu a {
+    height: 20%;
+    margin: 5px 5px 2px 2px;
+    border-radius: 24px;
+  }
+
+  .menu img {
+    margin: 2% 1% 6%;
+  }
+
+  .menu h1 {
+    display: none;
+  }
+
+  .snip1143 li:hover:before {
+    width: 10%;
+  }
+
+  .login form {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .form-group input {
+    font-size: 10px;
+  }
+
+  .owl-stage-outer {
+    margin-left: -5%;
+  }
+
+  .form-row {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .single_course {
+    width: 70%;
+  }
+
+  .single_course .course_content {
+    height: 350px;
+  }
+
+  .course_content .btns-cardapio a {
+    width: 70%;
+    display: block;
+    margin-right: 60%;
+  }
+
+  .btn_fav .bi-heart {
+    margin-left: 80%;
+    margin-bottom: 65%;
+    margin-top: -30px;
+  }
+
+  .card-wrapper .card:not(:first-child) {
+    display: none;
+  }
+
+  .quem-somos .col-md-5 img {
+    margin-bottom: 10%;
+  }
+
+  .content .image-box {
+    display: none;
+  }
+
+  .content form {
+    width: 100%;
+    margin-left: 5%;
+  }
+
+  .col-md-7 img {
+    margin-bottom: -40%
+  }
+
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+
+  .container_form {
+    width: 90%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .recuperar form {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .kitfesta {
+    text-align: center;
+  }
+
+  .kitfesta .col-md-5 img {
+    width: 90%;
+    margin-top: 5%;
+  }
+
+  .erro h1 {
+    font-size: 22px;
+    margin-top: 5%;
+  }
+
+  .erro a {
+    font-size: 10px;
+  }
+
+  .cadastro .modal-footer button a {
+    font-size: 20px;
+  }
+
+  .footer h3 {
+    padding-top: 20px;
+    font-size: 16px;
+  }
+
+  .footer li {
+    font-size: 14px;
+  }
+
+  .copyright p {
+    font-size: 14px;
+  }
+
+}

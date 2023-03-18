@@ -1,0 +1,218 @@
+.container_form {
+    z-index: 12;
+    max-width: 1050px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cadastro form {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5% 3% 5% 3%;
+    background: white;
+    border-radius: 6px;
+    border: 2px solid;
+    border-color: #FCCAD5;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    flex-wrap: wrap;
+}
+
+.container_form .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 20px;
+}
+
+.image-box {
+    max-width: 55%;
+}
+
+.image-box img {
+    width: 80%;
+}
+
+.content .topic {
+    font-size: 22px;
+    font-weight: 500;
+    color: black;
+    font-weight: bolder;
+}
+
+.cadastro button {
+    background-color: #F07882;
+    border: none;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.content .input-box {
+    height: 50px;
+    width: 100%;
+    margin: 16px 0;
+    position: relative;
+}
+
+.content .input-box input {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+    padding-left: 16px;
+    background: #fff1f0;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.content .input-box input:focus {
+    border-color: #FCCAD5 !important;
+    background-color: #fff;
+}
+
+.content .input-box label {
+    position: absolute;
+    left: 18px;
+    top: 50%;
+    color: #636c72;
+    font-size: 15px;
+    pointer-events: none;
+    transform: translateY(-50%);
+    transition: all 0.3s ease;
+}
+
+.content .input-box input:focus~label {
+    top: 0;
+    left: 12px;
+    display: 14px;
+    color: #E2AF7C !important;
+    background: #fff;
+}
+
+.content .message-box {
+    min-height: 100px;
+    position: relative;
+}
+
+.content .message-box textarea {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    resize: none;
+    background: #fff1f0;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.content .message-box textarea:focus {
+    border-color: #E2AF7C !important;
+    background-color: #fff;
+}
+
+.content .message-box label {
+    position: absolute;
+    font-size: 16px;
+    color: #636c72;
+    left: 18px;
+    top: 6px;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.content .message-box textarea:focus~label {
+    left: 12px;
+    top: -14px;
+    align-items: center;
+    left: 12px;
+    display: 14px;
+    color: #E2AF7C !important;
+    background: #fff;
+}
+
+.content .input-box input[type="submit"] {
+    color: #fff;
+    background: #E2AF7C;
+    width: 100%;
+    padding-left: 0;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.content .input-box input[type="reset"] {
+    color: #fff;
+    background: black;
+    width: 100%;
+    padding-left: 0;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+#message {
+    margin-top: 8px;
+}
+
+.content .input-box input[type="text"]:valid,
+input[type="email"]:valid,
+input[type="password"]:valid,
+input[type="date"]:valid,
+input[type="number"]:valid {
+    border-color: rgb(129, 194, 129);
+}
+
+.content .input-box input:valid~label {
+    top: 0;
+    left: 12px;
+    display: 14px;
+    color: rgb(129, 194, 129);
+    background: #fff;
+}
+
+.content .input-box input[type="text"]:invalid,
+input[type="email"]:invalid,
+input[type="password"]:invalid,
+input[type="date"]:invalid,
+input[type="number"]:invalid {
+    border-color: rgb(196, 13, 13);
+
+}
+
+.content .input-box input:invalid~label {
+    color: rgb(196, 13, 13);
+
+}
+
+.cadastro .modal-footer button {
+    border-radius: 10px;
+}
+
+.cadastro .modal-footer button a {
+    color: #fff;
+    font-size: 24px;
+}
+
+.cadastro .modal-footer button a:hover {
+    color: #fff;
+}
+
+.cadastro form button:hover {
+    background-color: black;
+}
+
+.form-row {
+    display: flex;
+}

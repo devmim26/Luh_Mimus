@@ -1,0 +1,146 @@
+CREATE DATABASE luh_mimus;
+
+USE luh_mimus;
+
+CREATE TABLE User_Cdst_Site(
+id_UserCdstSite INT AUTO_INCREMENT, 
+nome_UserCdstSite VARCHAR(220) NOT NULL,
+email_UserCdstSite VARCHAR(220) NOT NULL,
+senha_UserCdstSite VARCHAR(50) NOT NULL,
+celular_UserCdstSite VARCHAR(50) NOT NULL,
+cpf_UserCdstSite VARCHAR(50) NOT NULL,
+dtn_UserCdstSite DATE NOT NULL,
+avatar_UserCdstSite VARCHAR(50) NOT NULL,
+cep_UserCdstSite VARCHAR(50) NOT NULL,
+rua_UserCdstSite VARCHAR(140) NOT NULL,
+numero_UserCdstSite SMALLINT NOT NULL,
+comeplemento_UserCdstSite VARCHAR(50) NOT NULL,
+bairro_UserCdstSite VARCHAR (50) NOT NULL,
+cidade_UserCdstSite VARCHAR (50) NOT NULL,
+PRIMARY KEY (id_UserCdstSite));
+
+
+CREATE TABLE categorias(
+id_categorias INT AUTO_INCREMENT, 
+nome_categorias VARCHAR(220) NOT NULL,
+desc_categorias TEXT NOT NULL,
+PRIMARY KEY (id_categorias));
+
+
+CREATE TABLE estoque(
+id_estoque INT AUTO_INCREMENT,
+medidas VARCHAR(220),
+nome_estoque VARCHAR(250) NOT NULL,
+qtd_estoque INT(11) NOT NULL,
+valor_embalagem DOUBLE NOT NULL,
+qtd_embalagem BIGINT NOT NULL,
+valor_estoque DOUBLE NOT NULL, 
+PRIMARY KEY (id_estoque));
+
+
+CREATE TABLE anuncios(
+id_anuncios INT AUTO_INCREMENT,
+id_categorias INT, 
+id_estoque INT,
+nome_anuncios VARCHAR(200) NOT NULL,
+valor_anuncios DOUBLE NOT NULL,
+desc_anuncios TEXT NOT NULL,
+img_anuncios VARCHAR(50) NOT NULL,
+PRIMARY KEY (id_anuncios),
+FOREIGN KEY (id_categorias) REFERENCES categorias(id_categorias) ON DELETE CASCADE ON UPDATE CASCADE,
+FOREIGN KEY (id_estoque) REFERENCES estoque(id_estoque) ON DELETE CASCADE ON UPDATE CASCADE);
+
+CREATE TABLE eventos_calendario(
+id_eventos INT AUTO_INCREMENT,
+titulo_eventos VARCHAR(220) NOT NULL,
+start DATETIME NOT NULL,
+end DATETIME NOT NULL,
+PRIMARY KEY (id_eventos));
+
+CREATE TABLE encomenda(
+id_encomenda INT AUTO_INCREMENT, 
+id_anuncios INT,
+id_eventos INT,
+qtd_encomenda INT NOT NULL,
+massa_encomendas VARCHAR(220) NOT NULL,
+recheio_encomenda VARCHAR(220) NOT NULL,
+tema_encomenda VARCHAR(220) NOT NULL,
+PRIMARY KEY (id_encomenda),
+FOREIGN KEY (id_anuncios) REFERENCES anuncios(id_anuncios) ON DELETE CASCADE ON UPDATE CASCADE,
+FOREIGN KEY (id_eventos) REFERENCES eventos_calendario(id_eventos) ON DELETE CASCADE ON UPDATE CASCADE);
+
+CREATE TABLE User_Cdst_Software(
+cdst_sftw_id INT AUTO_INCREMENT, 
+cdst_sftw_email VARCHAR(220) NOT NULL,
+cdst_sftw_senha VARCHAR(50) NOT NULL,
+cdst_sftw_nome VARCHAR(220) NOT NULL,
+cdst_sftw_user VARCHAR(220) NOT NULL,
+cdst_sftw_cargo VARCHAR(50) NOT NULL,
+PRIMARY KEY (cdst_sftw_id));
+
+CREATE TABLE carrinho(
+id_carrinho INT AUTO_INCREMENT,
+id_UserCdstSite INT,
+created_carrinho DATETIME NOT NULL,
+PRIMARY KEY (id_carrinho),
+FOREIGN KEY (id_UserCdstSite) REFERENCES User_Cdst_Site(id_UserCdstSite) ON DELETE CASCADE ON UPDATE CASCADE);
+
+
+CREATE TABLE produto_carrinho(
+id_produtoCarrinho INT AUTO_INCREMENT,
+id_encomenda INT,
+id_anuncios INT,
+id_carrinho INT,
+valor_venda DOUBLE  NOT NULL,
+qtd_produto INT NOT NULL,
+PRIMARY KEY (id_produtoCarrinho),
+FOREIGN KEY (id_carrinho) REFERENCES carrinho(id_carrinho) ON DELETE CASCADE ON UPDATE CASCADE,
+FOREIGN KEY (id_anuncios) REFERENCES anuncios(id_anuncios) ON DELETE CASCADE ON UPDATE CASCADE,
+FOREIGN KEY (id_encomenda) REFERENCES encomenda(id_encomenda) ON DELETE CASCADE ON UPDATE CASCADE);
+
+
+CREATE TABLE pagamento(
+id_pg INT AUTO_INCREMENT,
+tipo_pg INT,
+cdg_trans VARCHAR(220),
+status_pg VARCHAR(220),
+num_card VARCHAR(220),
+link_boleto TEXT,
+link_pix TEXT,
+id_carrinho INT,
+id_produtoCarrinho INT,
+created_pg DATETIME NOT NULL,
+modified_pg DATETIME,
+PRIMARY KEY (id_pg),
+FOREIGN KEY (id_produtoCarrinho) REFERENCES produto_carrinho(id_produtoCarrinho) ON DELETE CASCADE ON UPDATE CASCADE,
+FOREIGN KEY (id_carrinho) REFERENCES carrinho(id_carrinho) ON DELETE CASCADE ON UPDATE CASCADE);
+
+CREATE TABLE despesas(
+id_despesas INT AUTO_INCREMENT,
+nome_despesas VARCHAR(220) NOT NULL,
+valor_despesas DOUBLE NOT NULL,
+total_despesas DOUBLE NOT NULL,
+PRIMARY KEY(id_despesas));
+
+
+CREATE TABLE financas(
+id_financas INT AUTO_INCREMENT,
+id_produtoCarrinho INT,
+id_estoque INT,
+id_pg INT,
+id_anuncios INT,
+id_encomenda INT,
+id_despesas INT,
+PRIMARY KEY (id_financas),
+FOREIGN KEY (id_produtoCarrinho) REFERENCES produto_carrinho(id_produtoCarrinho) ON DELETE CASCADE ON UPDATE CASCADE,
+FOREIGN KEY (id_despesas) REFERENCES despesas(id_despesas) ON DELETE CASCADE ON UPDATE CASCADE,
+FOREIGN KEY (id_estoque) REFERENCES estoque(id_estoque) ON DELETE CASCADE ON UPDATE CASCADE,
+FOREIGN KEY (id_pg) REFERENCES pagamento(id_pg) ON DELETE CASCADE ON UPDATE CASCADE,
+FOREIGN KEY (id_anuncios) REFERENCES anuncios(id_anuncios) ON DELETE CASCADE ON UPDATE CASCADE,
+FOREIGN KEY (id_encomenda) REFERENCES encomenda(id_encomenda) ON DELETE CASCADE ON UPDATE CASCADE);
+    
+
+
+
+
+
