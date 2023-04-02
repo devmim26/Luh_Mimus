@@ -1,5 +1,5 @@
 <?php
-    $hostname = "localhost";
+   /*  $hostname = "localhost";
     $banco = "luh_mimus";
     $user = "root";
     $senha = "";
@@ -9,10 +9,12 @@
      
     if ($sql->connect_errno){
         echo"Falha ao conectar (" . $sql->connect_errno . ")" . $sql->connect_errno;
-    } 
+    }  
 
-     //conectar banco hospedado nuvem
-        /* 
+    */ 
+
+   //conectar banco hospedado nuvem
+        
      $hostname = "luhmimus.mysql.dbaas.com.br";
      $banco = "luhmimus";
      $user = "luhmimus";
@@ -25,6 +27,6 @@
          echo"Falha ao conectar (" . $sql->connect_errno . ")" . $sql->connect_errno;
      } 
 
-*/
+
     
 ?>

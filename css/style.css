@@ -526,6 +526,7 @@ h2 {
 
 #logorodape {
   width: 200px;
+  height: 200px;
 }
 
 .footer {
@@ -548,7 +549,8 @@ h2 {
 }
 
 .footer img {
-  width: 100px;
+  width: 200px;
+  height: 200px;
 }
 
 p .politica{
