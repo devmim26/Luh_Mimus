@@ -1,0 +1,98 @@
+.page-title h3{
+    margin-top: 8%;
+}
+
+.col-12 .card-header a{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.col-12 .card-header svg{
+    color: rgb(0, 0, 0);
+}
+
+.page-heading .dropdown a {
+    background-color: #DF9DB1;
+    font-size: 18px;
+    color: white;
+    border: none;
+    width: 120px;
+    border-radius: 15px;
+    margin-left: 92%;
+    margin-top: 3px;
+}
+
+.page-heading .dropdown a:hover {
+    background-color: black;
+}
+
+.page-heading .dropdown-menu .dropdown-item{
+    margin-left: 0%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 14px
+}
+
+.page-heading .dropdown-menu .dropdown-item:hover{
+    color: #DF9DB1;
+    background-color: white;
+}
+
+.section .card{
+margin-top: 6%;
+}
+
+.relatorio .btn{
+    background-color: #DF9DB1;
+    font-size: 18px;
+    color: white;
+    border: none;
+    width: 120px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 1%;
+}
+
+.relatorio .btn:hover{
+    font-weight: normal;
+    background-color: black;
+}
+
+.table-responsive .table-name{
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.card tbody td{
+    margin-right: 20%;
+}
+
+.card-title a .bi-plus-circle{
+    color: #DF9DB1;
+    background-color:white;
+    border-radius: 0%;
+    
+    width: 34px;
+    height: 34px;
+}
+
+.card-title a .bi-plus-circle {
+    
+    margin-left:300px;
+    width: 34px;
+    height: 34px;
+}
+
+td a{
+color: rgb(134, 134, 134);
+margin-left: 20px;
+float: right;
+
+}
+
+
+    
+
+

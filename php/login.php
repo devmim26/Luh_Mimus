@@ -1,6 +1,6 @@
 <?php
 
-include'conn_banco.php';
+include 'conn_banco.php';
 
 
 
@@ -17,7 +17,7 @@ if (isset($_POST['email']) || isset($_POST['senha'])){
         $login = $_POST['email'];
         $senha = $_POST['password'];
 
-        $sql_logar = $sql->query("SELECT * FROM User_Cdst_Software WHERE cdst_sftw_email = '$login' AND cdst_sftw_senha = '$senha'");
+        $sql_logar = $sql->query("SELECT * FROM user_cdst_software WHERE cdst_sftw_email = '$login' AND cdst_sftw_senha = '$senha'");
         
 
         $qtd = $sql_logar->num_rows;
@@ -37,12 +37,16 @@ if (isset($_POST['email']) || isset($_POST['senha'])){
 
             $_SESSION['id'] = $usuario['cdst_sftw_id'];
             $_SESSION['nome'] = $usuario['cdst_sftw_nome'];
-            $_SESSION['email'] = $usuario['cdst_sftw_email'];
-            $_SESSION['user'] = $usuario['cdst_sftw_user'];
             $_SESSION['senha'] = $usuario['cdst_sftw_senha'];
+            $_SESSION['email'] = $usuario['cdst_sftw_email'];
+            $_SESSION['cargo'] = $usuario['cdst_sftw_cargo'];
+            $_SESSION['user'] = $usuario['cdst_sftw_user'];
+          
 
 
-            header("Location: iniciologged.php");
+
+
+            header("Location: ../software_luh_mimus-main/public/pages/dashboard.php");
 
         }else {
             

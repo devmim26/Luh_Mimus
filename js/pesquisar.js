@@ -59,11 +59,4 @@ function openPage(){
             if(a11.test(answer) || b11.test(answer) || c11.test(answer)){
                 window.location.href = "./html/quemsomos.html"
                 }
-                
-    let a12 = /login/i
-    let b12 = /entrar/i
-    let c12 = /fazer login/i
-            if(a12.test(answer) || b12.test(answer) || c12.test(answer)){
-                window.location.href = "./html/login2.html"
-                }
   }

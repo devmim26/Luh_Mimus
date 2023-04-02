@@ -1,0 +1,205 @@
+#meu{
+    padding: 8px;
+}
+
+.nav-tabs {
+    background-color: #F07882;
+    float: right;
+
+}
+
+#app .logo img {
+    width: 140px;
+    height: 140px;
+    margin-left: 25%;
+}
+
+.menu li img {
+    width: 30px;
+}
+
+#main {
+    background-color: #ffeaef;
+}
+
+.card-body #chart-profile-visit {
+    color: #F07882;
+}
+
+.header-bar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    text-align: right;
+}
+
+#pesquisar-header {
+    border: hidden;
+    background-color: transparent;
+    width: 85%;
+}
+
+textarea:focus,
+#pesquisar-header:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.icones-topo a svg {
+    width: 26px;
+    height: 26px;
+    margin-top: 1%;
+
+    color: rgb(0, 0, 0);
+}
+
+.dropdown a {
+
+    color: #000;
+    border: none;
+    margin-top: 12px;
+}
+
+
+.dropdown a:hover {
+
+    color: #FCCAD5;
+
+}
+
+.d-flex .form-control {
+    width: 180px;
+}
+
+
+.dropdown li a {
+    font-size: 14px;
+    border: none;
+}
+
+.pesquisinha {
+    margin-left: 40px;
+}
+
+.btn-outline {
+    color: #000;
+    border: none;
+
+}
+
+.btn-outline svg:hover {
+    color: #FCCAD5;
+    border-color: #FCCAD5;
+}
+
+.user {
+    margin-top: 20px;
+}
+
+.page-title h3{
+	margin-top: 8%;
+    margin-left: 3%;
+}
+
+.dropdown {
+    right: 5%;
+    margin-top: -5%;
+    height: 40px;
+    padding: 10px;
+}
+
+.grafico1 h4 {
+    text-align: center;
+}
+
+.grafico1 {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+.encomendas .card {
+    width: 100%;
+    background-color: #F99AAF;
+    justify-content: center;
+    text-align: center;
+}
+
+.encomendas .card-content {
+    background-color: white;
+    margin: 6px 6px;
+    border-radius: 10px;
+}
+
+.card-content h4 {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+#circulo {
+    background-color: #F99AAF;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: -6%;
+    /*add essa parte abaixo no responsivo para alinhar em telas menores
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+    */
+    
+}
+
+.info-date{
+    height: 70px;
+    padding: 10px;
+}
+/*
+.info-date h1{
+    background-color: aquamarine;
+    font-size: 24px;
+    color: white;
+    margin-top: 25px;
+}
+
+.info-date h2{
+    background-color: aquamarine;
+    font-size: 20px;
+    color: white;
+}
+*/
+
+#circulo h1{
+    font-size: 24px;
+    color: white;
+    margin-top: 10px;
+}
+
+#circulo h2{
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+}
+
+.text-muted{
+    font-size: 18px;
+}
+/*Clientes*/
+div.dropdown-toggle{
+    margin-right: 150px;
+}
+table{
+    table-layout: fixed;
+}
+
+th{
+    text-align: center;
+    width: 77.5px;
+}
+td{
+    text-align: center;
+}

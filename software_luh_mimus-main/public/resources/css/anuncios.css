@@ -1,0 +1,35 @@
+.card-content{
+    text-align: center;
+    justify-content: center;
+    }
+    
+    .card-content img{
+    width: 90%;
+        }
+    
+    .page-heading .nav-link{
+        font-weight: bold;
+    
+    }
+    
+    .page-heading .nav-link:hover{
+    color: pink
+    
+    }
+    
+    .add{
+        background-color: black;
+        border-radius: 20px;
+        color: white;
+    }
+    
+    .cat{
+        background-color: #f0a1b9;
+        border: none;
+        border-radius: 20px;
+        color: black;
+        margin-top: 33%;
+        margin-left: 40%;
+    
+    }
+    
